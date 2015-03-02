@@ -122,7 +122,6 @@ header{
   &:hover{
     color: #222;
   }
-
 }
 
 .header-content{
@@ -150,6 +149,25 @@ header{
   }
 }
 
+.site-title{
+  text-align: center; 
+
+  .greeting{
+    margin-top: 4rem;
+    display: block; 
+    font-weight: bold; 
+  }
+
+  .my-title{
+    text-align: center; 
+    display: block;
+
+    span{
+      display: inline-block;
+    }
+  }
+}
+
 .title{
   text-align: center;
   display: block;
@@ -172,12 +190,23 @@ header{
   }
 }
 
+.highlights-title{
+  margin-top: 2rem; 
+  font-weight: bold;
+}
+
+
 .highlights{
 
   .piece{
     margin-top: 4rem;
   }
 
+}
+
+.projects-title{
+  margin-top: 4rem; 
+  font-weight: bold;
 }
 
 .project-flash{  

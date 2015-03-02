@@ -94,6 +94,18 @@ header {
       color: #0FA0CE;
       transition: .3s; }
 
+.site-title {
+  text-align: center; }
+  .site-title .greeting {
+    margin-top: 4rem;
+    display: block;
+    font-weight: bold; }
+  .site-title .my-title {
+    text-align: center;
+    display: block; }
+    .site-title .my-title span {
+      display: inline-block; }
+
 .title {
   text-align: center;
   display: block;
@@ -111,8 +123,16 @@ header {
   .piece.padded {
     padding: 6px; }
 
+.highlights-title {
+  margin-top: 2rem;
+  font-weight: bold; }
+
 .highlights .piece {
   margin-top: 4rem; }
+
+.projects-title {
+  margin-top: 4rem;
+  font-weight: bold; }
 
 .project-flash {
   min-height: 200px;

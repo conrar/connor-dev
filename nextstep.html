@@ -23,18 +23,7 @@
 </head>
 <body>
   
-  <header class="site-header">
-    <div class="header-content u-cf">
-      <a href="/" class="logo">Connor Schulte</a>
-      <nav class="site-nav">
-        <a href="/" class="nav-link">Projects</a>
-        <a href="/about" class="nav-link">About</a>
-        <a href="/cv" class="nav-link">CV</a>
-      </nav>
-      <a href="mailto:hello@connorschulte.com" class="email-link">Hello@ConnorSchulte.com</a>
-      <img class="burger" src="images/burger.jpg" alt="menu">
-    </div>
-  </header>
+  <header id="header"></header>
 
   <div class="container">
 
@@ -44,60 +33,48 @@
         <a href="http://nextstep.io" class="click-through" target="_blank">&gt;&gt; Go to the site &gt;&gt;</a>
         <p>NextStep.io is an online personal wellness coaching service with programs that make use of popular activity trackers. I joined the team in late 2013 as a designer and front-end developer. I have filled those roles as well as a variety of others required in an early stage startup.</p>
         <p>While with NextStep.io, I have lead the design and evolution of the company's brand, homepage, web application, mobile application, brand illustrations, email templates, user manuals, and assorted print materials (including posters, apparel, stickers).</p>
-        <h5 style="margin-top: 2rem; font-weight: bold;">Highlights and Concepts:</h5>
+        <h5 class="highlights-title">Highlights and Concepts:</h5>
       </div>
     </div>
 
     <section class="highlights">
 
       <div class="row">
-        <img src="images/nextstepbcard.png" class="five columns offset-by-one piece" alt="business card">
-        <img src="images/nsmobilemocup.png" class="five columns piece" alt="business card">
+        <img src="images/nextstepbcard.png" class="five columns offset-by-one piece" alt="nextstep.io business card">
+        <img src="images/nsmobilemocup.png" class="five columns piece" alt="nextstep.io mobile comp">
       </div>
 
       <div class="row">
-        <img src="images/nextstephome.png" alt="nextstep.io" class="ten columns offset-by-one piece">
+        <img src="images/nextstephome.png" class="ten columns offset-by-one piece" alt="nextstep.io homepage">
       </div>
 
       <div class="row">
-        
-        <!-- <div class="six columns u-cf piece">
-          <div style="display: block;">
-            <img src="images/nextstephand.png" alt="nextstep illustration" style="float: left; width: 50%;">
-            <img src="images/nextstepnice.png" alt="nextstep illustration" style="float: left; width: 50%;">
-          </div>
-          <div style="display: block;">
-            <img src="images/nextsteppc.png" alt="nextstep illustration" style="width: 50%; float: left;">
-            <img src="images/nextstepcup.png" alt="nextstep illustration" style="width: 50%; float: left;">
-          </div>
-        </div> -->
-
-        <img src="images/nextstepcup.png" class="five columns offset-by-one piece" alt="nextstep illustration">
-        
-        <img src="images/nextstepclip.png" class="five columns piece" alt="nextstep illustration">
-      
+        <img src="images/nextstepcup.png" class="five columns offset-by-one piece" alt="nextstep.io illustration">
+        <img src="images/nextstepclip.png" class="five columns piece" alt="nextstep.io illustration">
       </div>
 
       <div class="row">
-        <img src="images/nsmobilescreens.jpg" class="twelve columns piece" alt="nextstep mobile screenshots">
+        <img src="images/nsmobilescreens.jpg" class="twelve columns piece" alt="nextstep.io app store screenshots">
       </div>
 
       <div class="row">
-        <img src="images/nsbooth.jpg" alt="nextstep booth" class="five columns offset-by-one piece">
-        <img src="images/heart.png" alt="nextstep sticker" class="five columns piece">
+        <img src="images/nsbooth.jpg" class="five columns offset-by-one piece" alt="nextstep.io booth">
+        <img src="images/heart.png" class="five columns piece" alt="nextstep.io sticker">
       </div>
       
       <div class="row">
-        <img src="images/nswebappscreen.png" class="twelve columns piece" alt="nextstep web screenshot">
+        <img src="images/nswebappscreen.png" class="twelve columns piece" alt="nextstep.io web client screenshot">
       </div>
 
     </section>
+
   </div>
 
   <footer id="footer"></footer>
 
   <script type="text/javascript">
-    $('#footer').load("footer.html")
+    $('#header').load("header.html");
+    $('#footer').load("footer.html");
   </script>
 
 </body>

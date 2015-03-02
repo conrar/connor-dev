@@ -23,28 +23,17 @@
 </head>
 <body>
   
-  <header class="site-header">
-    <div class="header-content u-cf">
-      <a href="/" class="logo">Connor Schulte</a>
-      <nav class="site-nav">
-        <a href="/" class="nav-link">Projects</a>
-        <a href="/about" class="nav-link">About</a>
-        <a href="/cv" class="nav-link">CV</a>
-      </nav>
-      <a href="mailto:hello@connorschulte.com" class="email-link">Hello@ConnorSchulte.com</a>
-      <img class="burger" src="images/burger.jpg" alt="menu">
-    </div>
-  </header>
+  <header id="header"></header>
 
   <div class="container">
 
     <div class="row">
       <div class="write-up ten columns offset-by-one">
         <h1 class="title">Afterhours Sessions</h1>
-        <a href="https://www.facebook.com/AfterhoursSessions/timeline" class="click-through" target="_blank">&gt;&gt; Go to the site &gt;&gt;</a>
+        <a href="https://www.facebook.com/AfterhoursSessions/timeline" class="click-through" target="_blank">&gt;&gt; Go to the facebook page &gt;&gt;</a>
         <p>Afterhours Sessions is an Iowa City-based production company that takes musicians out of the spotlight and into the streetlight; filming intimate, unrehearsed music videos in cities across the United States.</p>
         <p>I worked with the Afterhours team to help them develop a visual brand and establish a web pressence.</p>
-        <h5 style="margin-top: 2rem; font-weight: bold;">Highlights and Concepts:</h5>
+        <h5 class="highlights-title">Highlights and Concepts:</h5>
       </div>
     </div>
 
@@ -55,17 +44,6 @@
       </div>
 
       <div class="row">
-        
-        <!-- <div class="six columns u-cf piece">
-          <div style="display: block;">
-            <img src="images/nextstephand.png" alt="nextstep illustration" style="float: left; width: 50%;">
-            <img src="images/nextstepnice.png" alt="nextstep illustration" style="float: left; width: 50%;">
-          </div>
-          <div style="display: block;">
-            <img src="images/nextsteppc.png" alt="nextstep illustration" style="width: 50%; float: left;">
-            <img src="images/nextstepcup.png" alt="nextstep illustration" style="width: 50%; float: left;">
-          </div>
-        </div> -->
 
         <img src="images/ah-colors.png" class="five columns offset-by-one piece" alt="afterhours concept">
         
@@ -93,7 +71,8 @@
   <footer id="footer"></footer>
 
   <script type="text/javascript">
-    $('#footer').load("footer.html")
+    $('#header').load("header.html");
+    $('#footer').load("footer.html");
   </script>
 
 </body>
